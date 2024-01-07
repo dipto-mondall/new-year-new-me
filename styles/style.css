@@ -126,7 +126,7 @@ section {
 }
 /* call-section */
 #call-section {
-    background: url('../images/gradient1.png'), url('../images/watch.png') ;
+  background: url("../images/gradient1.png"), url("../images/watch.png");
 }
 .call-section-content {
   text-align: left;
@@ -139,3 +139,77 @@ section {
   font-weight: 700;
   margin-bottom: 24px;
 }
+/* footer */
+footer {
+  background-color: #000;
+  padding: 130px 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 71.25%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.footer-future .footer-future-header {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer-future .footer-discription {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 16px 0 24px 0;
+  max-width: 485px;
+}
+.footer-future > p,
+.footer-future > p > a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.footer-future-icon .foot-icon{
+  margin-right: 10px;
+  margin-top: 14px;
+}
+
+.footer-subscribe .footer-subscribe-header {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+}
+.footer-subscribe .footer-form #footer-email {
+  color:  #f3f3f3;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid #FFF;
+  padding: 20px 0px 20px 20px;
+  background-color: #000 ;
+  margin: 30px 0 16px 0;
+}
+.footer-subscribe .footer-form #footer-email::placeholder{
+  color:  #f3f3f3;
+  font-size: 18px;
+  font-weight: 400;
+}
+#footer-submit-btn{
+  border: 0;
+  border-radius: 8px;
+  background: #005FAC;
+  color: #fff;
+  padding: 20px 35px;
+}
+#footer-submit-btn:hover{
+  background: #f8f8f8 ;
+  color: #005FAC;
+}
+.footer-form > input{
+  display: block;
+}
+
