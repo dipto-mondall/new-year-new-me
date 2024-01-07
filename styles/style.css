@@ -124,3 +124,18 @@ section {
   font-size: 25px;
   font-weight: 500;
 }
+/* call-section */
+#call-section {
+    background: url('../images/gradient1.png'), url('../images/watch.png') ;
+}
+.call-section-content {
+  text-align: left;
+  padding: 59px 0;
+  margin-left: 64px;
+}
+.call-section-content > h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
