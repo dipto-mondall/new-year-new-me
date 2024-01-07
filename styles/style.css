@@ -89,13 +89,38 @@ section {
 }
 #failures-section .failures-section-content .failtures-list li {
   list-style: none;
-  color:, #444343;
+  color: #444343;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
 }
-#failures-section .failures-section-content .failtures-list li > i{
-    margin-right: 10px;
-    color: #16D887;
-    font-size: 24px;
+#failures-section .failures-section-content .failtures-list li > i {
+  margin-right: 10px;
+  color: #16d887;
+  font-size: 24px;
+}
+/* play-section */
+#play-section {
+  text-align: center;
+}
+#play-section .play-section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+#play-section .play-section-container .play-icon {
+  width: 93px;
+  height: 93px;
+}
+#play-section .play-section-container .play-heading {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 24px 0 16px 0;
+}
+#play-section .play-section-container .play-discription {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
 }
