@@ -6,10 +6,11 @@
 /* shared css style */
 
 /* banner */
-header{
-    background: url("../images/banner/banner3.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+header {
+  background: url("../images/banner/banner3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 130px;
 }
 .banner {
   text-align: right;
@@ -45,9 +46,56 @@ header{
   border-radius: 5px;
   background: #fff;
   border: 0;
-  transition: .4s;
+  transition: 0.4s;
 }
-.btn-primary:hover{
-    background: #005fac;
-    color: #fff;
+.btn-primary:hover {
+  background: #005fac;
+  color: #fff;
+}
+
+/* main related style */
+main {
+  max-width: 1141px;
+  margin: 0 auto;
+}
+section {
+  margin-bottom: 130px;
+}
+
+/* failures section */
+#failures-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#failures-section .failures-section-img img {
+  width: 100%;
+}
+#failures-section .failures-section-content {
+  max-width: 416px;
+  text-align: left;
+}
+#failures-section .failures-section-content .failures-heading {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+#failures-section .failures-section-content .failures-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 24px 0 16px 0;
+}
+#failures-section .failures-section-content .failtures-list li {
+  list-style: none;
+  color:, #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+#failures-section .failures-section-content .failtures-list li > i{
+    margin-right: 10px;
+    color: #16D887;
+    font-size: 24px;
 }
